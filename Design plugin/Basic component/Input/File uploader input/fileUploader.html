@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<link rel="stylesheet" href="fileUploader.css">
+</head>
+
+<body>
+	<div class='imageSection'>
+		<img id="uploadedImage" src="#" alt="your image" />
+	</div>
+	
+	<div class="file-input-wrapper">
+	  <button class="btn-file-input">Upload File</button>
+	  <input type="file" name="file"  class='profileFileUpload' onchange="readURL(this);"/>
+	</div>
+	
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="fileUploader.js"></script>
+
+</html>
