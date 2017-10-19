@@ -1,0 +1,71 @@
+/*****************************
+			Syntax 
+*****************************/
+
+(selector).animate(animation_type,speed,easing,callback)
+
+
+
+
+/*****************************
+	Animation type list 
+*****************************/
+
+backgroundPositionX
+backgroundPositionY
+borderWidth
+borderBottomWidth
+borderLeftWidth
+borderRightWidth
+borderTopWidth
+borderSpacing
+margin
+marginBottom
+marginLeft
+marginRight
+marginTop
+outlineWidth
+padding
+paddingBottom
+paddingLeft
+paddingRight
+paddingTop
+height
+width
+maxHeight
+maxWidth
+minHeight
+minWidth
+fontSize
+bottom
+left
+right
+top
+letterSpacing
+wordSpacing
+lineHeight
+textIndent
+
+
+
+/*****************************
+		speed list 
+*****************************/
+
+milliseconds (like 100, 1000, 5000, etc)
+"slow"
+"fast"
+
+
+
+/*****************************
+		easing list 
+*****************************/
+
+"swing" - moves slower at the beginning/end, but faster in the middle
+"linear" - moves in a constant speed
+
+
+
+
+

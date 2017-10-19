@@ -1,0 +1,67 @@
+body{
+	font-family:"Arial" , sans-serif;
+	width:80%;
+	margin:auto;
+	margin-top:5%;
+}
+section{
+	border-bottom:1px solid lightgray;
+	padding-bottom:3%;
+	margin:auto;
+	text-align:center;
+	margin-bottom:5%;
+}
+h1{
+	padding-top:4%;
+	padding-bottom:4%;
+}
+.box{	
+	background:black;
+	height:100px;
+	width:100px;
+	color:white;
+	margin:auto;
+}
+.positionAnimationBox,
+.queueAnimationBox,
+.speedAnimationBox,
+.easingAnimationBox,
+.stopAnimationBox,
+.callbackAnimationBox{	
+	background:black;
+	height:100px;
+	width:100px;
+	color:white;
+	position:relative;	
+}
+.borderAnimationBox{
+	height:100px;
+	width:100px;
+	border:1px solid black;
+	margin:auto;	
+}
+button{
+	
+	cursor:pointer;
+	border:none;
+	outline:none;
+	border:1px solid gray;
+	color:gray;
+	padding:1.5%;
+	margin-top:5%;
+	margin-bottom:2%;
+	background:transparent;
+}
+.fontSpacingAnimationBox{
+	width:500px;
+	height:500px;
+}
+
+.bgPostionAnimationBox{	
+	height:160px;
+	width:160px;
+	margin:auto;
+	background-image:url("https://groups.google.com/u/0/a/googleproductforums.com/group/chrome/attach/243f3e01044b5/smalllogo.png?part=0.1&thumb=1");	
+}
+
+	
