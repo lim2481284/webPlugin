@@ -1,0 +1,2 @@
+First step 
+	- run SQL query from db/db.sql 
