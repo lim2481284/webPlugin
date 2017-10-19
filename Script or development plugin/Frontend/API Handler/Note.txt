@@ -1,0 +1,4 @@
+Utility.js 		- To declare AJAX function and make it simplify 
+main-api.js 		- To handle API request and error handling 
+main-api-action.js	- To trigger API request 
+main-api-response.js	- To handle API request response   
