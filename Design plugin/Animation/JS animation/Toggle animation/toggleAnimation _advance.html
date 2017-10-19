@@ -7,45 +7,47 @@
 </head>
 
 <body>	
+	<section>
+		<h1>Multiple element Toggle </h1>
+		<div class="elementBox toggleElement1 toggleElement3">
+			<h1> Element 1 </h1>
+			<button type=button class="element1AnimationTrigger"> Element 1 to 2 toggle</button>
+		</div>
+		<div class="elementBox2 toggleElement1 toggleElement2 ">
+			<h1> Element 2 </h1>
+			<button type=button class="element2AnimationTrigger"> Element 2 to 3 toggle</button>
+		</div>
+		<div class="elementBox3 toggleElement2 toggleElement3">
+			<h1> Element 3 </h1>
+			<button type=button class="element3AnimationTrigger">Element 3 to 1 toggle</button>
+		</div>		
+	</section>	
 
 
 	<section>
 		<h1>Queue toggle animation </h1>
-		<div class="queueAnimationBox"></div>
-		<button type=button class="queueAnimationTrigger">Queue animation trigger</button>
+		<div class="box queueAnimationBox toggleQueue"></div>
+		<div class="box queueAnimationBox2 toggleQueue"></div>
+		<button type=button class="queueToggleTrigger">Queue animation trigger</button>
 	</section>	
 	
 	<section>
 		<h1>Toggle speed</h1>
-		<div class="speedAnimationBox"></div>
-		<button type=button class="speedAnimationTrigger"> Speed animation trigger</button>
+		<div class="box toggleSpeed"></div>
+		<div class="box speedAnimationBox toggleSpeed"></div>
+		<button type=button class="speedVerySlowAnimationTrigger">Very slow</button>
+		<button type=button class="speedSlowAnimationTrigger">Slow</button>
+		<button type=button class="speedFastAnimationTrigger">Fast</button>
+		<button type=button class="speedVeryFastAnimationTrigger">Very fast</button>
 	</section>	
 		
 	<section>
-		<h1>Toggle Callback function </h1>
-		<div class="callbackAnimationBox"></div>
-		<button type=button class="callbackAnimationTrigger"> Position animation trigger</button>
-	</section>	
-		
-	<section>
-		<h1>Multiple Toggle </h1>
-		<div class="stopAnimationBox"></div>
-		<button type=button class="startAnimationTrigger"> Start animation trigger</button>
-		<button type=button class="stopAnimationTrigger"> Stop animation trigger</button>
-	</section>	
-	
-	<section>
-		<h1>Toggle loop </h1>
-		<div class="box loopAnimationBox"></div>
-		<button type=button class="loopAnimationTrigger"> Position animation trigger</button>
+		<h1>Toggle Callback function (Have bug, will call 2 times) </h1>
+		<div class="box toggleCallback"></div>
+		<div class="box callbackAnimationBox toggleCallback"></div>
+		<button type=button class="callbackAnimationTrigger"> Toggle Callback trigger</button>
 	</section>	
 
-	<section>
-		<h1>Toggle Easing </h1>
-		<div class="easingAnimationBox"></div>
-		<button type=button class="easingAnimationTrigger"> Position animation trigger</button>
-	</section>	
-		
 		
 </body>
 
