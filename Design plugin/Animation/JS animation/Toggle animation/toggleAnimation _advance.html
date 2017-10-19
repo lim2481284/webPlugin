@@ -3,43 +3,54 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<link rel="stylesheet" href="toggleAnimation.css"> 	
+	<link rel="stylesheet" href="assets/css/toggleAnimation.css"> 	
 </head>
 
-<body>
-	
-	<section = "
-	<div class="login-page">
-		  <div class="form">
-				<form action ="" method = "post" class="register-form" onsubmit="return check()">					
-					  <div id="test">
-						  <label style=' color:white; font-size:20px;'> Create Account </label>
-						  <br><br>
-						  <input type="text" placeholder="Username" name="username" required/>
-						  <input id="pass" type="password" placeholder="Password" name="password" required onkeyup="checkPass(); return false;"/>
-						  <input  id="confirmpass" type="password" placeholder="Confirm password" required  onkeyup="checkPass(); return false;"/>
-						  <input type="email" name="email" placeholder="Email address" required/>
-						  <button id='register' name="register">create</button>
-					  </div>
-					  <p class="message">Already registered? <a href="#">Sign In</a></p>
-				</form>
-			
-				
-				<form action ="" method = "post"  class="login-form">
-					   <center><img src = 'sample_img/white_logo_2.png' class='logo'> </center>
-						<!--  <h1 style='color:#76b852; border-color:grey;margin:3%;'> i-PreDi </h1> -->
-					  <input type="text" name="username" placeholder="username"  required/>
-					  <input type="password" name="password" placeholder="password"  required/>
-					  <a href='#'><button type='submit' name="login">login</button></a>
-					  <p class="message">Not registered? <a href="#">Create an account</a></p>
-				</form>										
-		  </div>
-	</div>
+<body>	
 
+
+	<section>
+		<h1>Queue toggle animation </h1>
+		<div class="queueAnimationBox"></div>
+		<button type=button class="queueAnimationTrigger">Queue animation trigger</button>
+	</section>	
+	
+	<section>
+		<h1>Toggle speed</h1>
+		<div class="speedAnimationBox"></div>
+		<button type=button class="speedAnimationTrigger"> Speed animation trigger</button>
+	</section>	
+		
+	<section>
+		<h1>Toggle Callback function </h1>
+		<div class="callbackAnimationBox"></div>
+		<button type=button class="callbackAnimationTrigger"> Position animation trigger</button>
+	</section>	
+		
+	<section>
+		<h1>Multiple Toggle </h1>
+		<div class="stopAnimationBox"></div>
+		<button type=button class="startAnimationTrigger"> Start animation trigger</button>
+		<button type=button class="stopAnimationTrigger"> Stop animation trigger</button>
+	</section>	
+	
+	<section>
+		<h1>Toggle loop </h1>
+		<div class="box loopAnimationBox"></div>
+		<button type=button class="loopAnimationTrigger"> Position animation trigger</button>
+	</section>	
+
+	<section>
+		<h1>Toggle Easing </h1>
+		<div class="easingAnimationBox"></div>
+		<button type=button class="easingAnimationTrigger"> Position animation trigger</button>
+	</section>	
+		
+		
 </body>
 
 <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="toggleAnimation.js"></script>
+<script type="text/javascript" src="assets/js/toggleAnimation.js"></script>
 </html>
 
 

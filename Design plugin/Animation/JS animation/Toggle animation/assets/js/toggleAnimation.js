@@ -1,76 +1,96 @@
 $(document).ready(function(){
 	
+	//Size animation script
+    $(".elementAnimationTrigger").click(function(){
+		
+        $(".toggleElement").animate({			
+			height: "toggle",
+			width:"toggle",
+			border:"toggle",
+			padding:"toggle",
+			opacity:"toggle",
+			fontSize:"toggle"
+		},"slow");
+    });
+	
 	
 	//Size animation script
     $(".sizeAnimationTrigger").click(function(){
-        $(".sizeAnimationBox").animate({
-			width: "+=30px",
-			height: "+=30px"
-		});
+        $(".toggleSize").animate({
+			width: "toggle",
+			height: "toggle"
+		},"slow");
     });
 	
 	//Position animation script
     $(".positionAnimationTrigger").click(function(){
-        $(".positionAnimationBox").animate({
-			left: "+=100px"
-
+        $(".togglePosition").animate({
+			width: "toggle",
+			height: "toggle",
+			opacity:"toggle"			
 		});
 	});	
-	
-	//Background Position animation script
-    $(".bgPostionAnimationTrigger").click(function(){
-        $(".bgPostionAnimationBox").animate({
-			backgroundPositionX: "+=100px", 
-            backgroundPositionY: "+=200px"
-		});
-	});		
 
+	//Position Slide animation script
+    $(".positionSlideRightAnimationTrigger").click(function(){
+		$(".positionSlideAnimationBox").animate({
+			left: "100%"		
+		});
+        $(".togglePositionSlide").toggle();
+	});	
+    $(".positionSlideLeftAnimationTrigger").click(function(){
+		$(".positionSlideAnimationBox").animate({
+			left: "-100%"		
+		});
+        $(".togglePositionSlide").toggle();
+	});		
+	
 	//Opacity animation script
     $(".opacityAnimationTrigger").click(function(){
-        $(".opacityAnimationBox").animate({
-			opacity:"-=0.4"			
-		});
+        $(".toggleOpacity").animate({
+			opacity:"toggle"			
+		},"slow");
     });	
 
 	//Border animation script
     $(".borderAnimationTrigger").click(function(){
-        $(".borderAnimationBox").animate({
-			borderWidth: "+=10px"			
+        $(".toggleBorder").animate({
+			borderWidth: "toggle"
 
 		})	;
     });		
 
 	//Margin animation script
     $(".marginAnimationTrigger").click(function(){
-        $(".marginAnimationBox").animate({
-			margin: "+=10px"		
+        $(".toggleMargin").animate({
+			margin: "toggle"		
 
 		});
     });	
 
 	//Padding animation script
     $(".paddingAnimationTrigger").click(function(){
-        $(".paddingAnimationBox").animate({
-			padding: "+=10px"			
+        $(".togglePadding").animate({
+			padding: "toggle"			
 
 		});
     });	
 
 	//Font size animation script
     $(".fontSizeAnimationTrigger").click(function(){
-        $(".fontSizeAnimationBox").animate({
-			fontSize: "+=5px"			
+        $(".toggleFontSize").animate({
+			fontSize: "toggle"		
 
 		});
     });	
 
 	//Font spacing animation script
     $(".fontSpacingAnimationTrigger").click(function(){
-        $(".fontSpacingAnimationBox").animate({
-			letterSpacing: "+=5px",			//Between letter
-			wordSpacing: "+=5px",				//Between word
-			lineHeight: "+=5px",				//Between line
-			textIndent: "+=5px"				//Paragraph begin indent size 
+        $(".toggleFontSpace").animate({
+			letterSpacing: "toggle",			//Between letter
+			wordSpacing:  "toggle",				//Between word
+			lineHeight:  "toggle",				//Between line
+			textIndent:  "toggle"			//Paragraph begin indent size 
 
 		});
     });		

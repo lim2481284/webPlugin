@@ -22,12 +22,24 @@ h1{
 	color:white;
 	margin:auto;
 }
-.positionAnimationBox{	
+.positionAnimationBox,
+.positionSlideAnimationBox{	
 	background:black;
 	height:100px;
 	width:100px;
 	color:white;
 	position:relative;	
+	left:0;
+}
+.positionAnimationBox2{
+	background:black;
+	height:100px;
+	width:100px;
+	color:white;
+	margin-left:100%;
+	position:relative;	
+	float:right;
+	display:none;
 }
 .borderAnimationBox{
 	height:100px;
@@ -47,11 +59,6 @@ button{
 	margin-bottom:2%;
 	background:transparent;
 }
-.fontSpacingAnimationBox{
-	width:500px;
-	height:500px;
-}
-
 .bgPostionAnimationBox{	
 	height:160px;
 	width:160px;
@@ -59,4 +66,44 @@ button{
 	background-image:url("https://groups.google.com/u/0/a/googleproductforums.com/group/chrome/attach/243f3e01044b5/smalllogo.png?part=0.1&thumb=1");	
 }
 
-	
+.sizeAnimationBox2{
+	display:none;
+	width:400px;
+	height:400px;
+}
+.elementBox2{
+	display:none;
+}
+.toggleElement{
+	padding:3%;
+	border:1px solid gray;
+}
+.positionSlideLeftAnimationTrigger,
+.opacityAnimationBox2,
+.borderAnimationBox2,
+.marginAnimationBox2,
+.paddingAnimationBox2,
+.fontSizeAnimationBox2,
+.fontSpacingAnimationBox2{
+	display:none;
+}
+.fontSpacingAnimationBox2{
+	letter-spacing: 50px;
+	word-spacing:50px;
+	line-height:50px;
+	text-indent:50px;
+}
+.fontSizeAnimationBox2{
+	font-size:3em;
+}
+
+.paddingAnimationBox2{
+	padding:5%;
+}
+
+.borderAnimationBox2{
+	height:100px;
+	width:100px;
+	margin:auto;
+	border:10px solid black;
+}

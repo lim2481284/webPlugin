@@ -3,43 +3,92 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<link rel="stylesheet" href="toggleAnimation.css"> 	
+	<link rel="stylesheet" href="assets/css/toggleAnimation.css"> 	
 </head>
 
-<body>
+<body>	
+
+	<section>
+		<h1>Change element toggle </h1>
+		<div class="elementBox toggleElement">
+			<h1> Element 1 </h1>
+		</div>
+		<div class="elementBox2 toggleElement">
+			<h1> Element 2 </h1>
+		</div>
+		<button type=button class="elementAnimationTrigger"> Size toggle trigger</button>
+	</section>
 	
-	<section = "
-	<div class="login-page">
-		  <div class="form">
-				<form action ="" method = "post" class="register-form" onsubmit="return check()">					
-					  <div id="test">
-						  <label style=' color:white; font-size:20px;'> Create Account </label>
-						  <br><br>
-						  <input type="text" placeholder="Username" name="username" required/>
-						  <input id="pass" type="password" placeholder="Password" name="password" required onkeyup="checkPass(); return false;"/>
-						  <input  id="confirmpass" type="password" placeholder="Confirm password" required  onkeyup="checkPass(); return false;"/>
-						  <input type="email" name="email" placeholder="Email address" required/>
-						  <button id='register' name="register">create</button>
-					  </div>
-					  <p class="message">Already registered? <a href="#">Sign In</a></p>
-				</form>
-			
-				
-				<form action ="" method = "post"  class="login-form">
-					   <center><img src = 'sample_img/white_logo_2.png' class='logo'> </center>
-						<!--  <h1 style='color:#76b852; border-color:grey;margin:3%;'> i-PreDi </h1> -->
-					  <input type="text" name="username" placeholder="username"  required/>
-					  <input type="password" name="password" placeholder="password"  required/>
-					  <a href='#'><button type='submit' name="login">login</button></a>
-					  <p class="message">Not registered? <a href="#">Create an account</a></p>
-				</form>										
-		  </div>
-	</div>
+	<section>
+		<h1>Size toggle </h1>
+		<div class="box sizeAnimationBox toggleSize"></div>
+		<div class="box sizeAnimationBox2 toggleSize"></div>
+		<button type=button class="sizeAnimationTrigger"> Size toggle trigger</button>
+	</section>
 
+	
+	<section>
+		<h1>Position toggle </h1>
+		<div class="positionAnimationBox togglePosition"></div>
+		<div class="positionAnimationBox2 togglePosition"></div>
+		<button type=button class="positionAnimationTrigger"> Position toggle trigger</button>
+	</section>	
+
+	<section>
+		<h1>Position toggle (Slide) </h1>
+		<div class="positionSlideAnimationBox"></div>		
+		<button type=button class="positionSlideRightAnimationTrigger togglePositionSlide"> Position slide right toggle trigger</button>
+		<button type=button class="positionSlideLeftAnimationTrigger togglePositionSlide"> Position slide left toggle trigger</button>
+	</section>	
+	
+	<section>
+		<h1>Opacity toggle </h1>
+		<div class="box opacityAnimationBox toggleOpacity"></div>
+		<div class="box opacityAnimationBox2 toggleOpacity"></div>				
+		<button type=button class="opacityAnimationTrigger"> Opacity toggle trigger</button>
+	</section>	
+	
+	<section>
+		<h1>Border toggle </h1>
+		<div class="borderAnimationBox toggleBorder"></div>
+		<div class="borderAnimationBox2 toggleBorder"></div>
+		<button type=button class="borderAnimationTrigger"> Border toggle trigger</button>
+	</section>	
+
+	<section>
+		<h1>Margin toggle </h1>
+		<div class="box marginAnimationBox toggleMargin"></div>
+		<div class="box marginAnimationBox2 toggleMargin"></div>
+		<button type=button class="marginAnimationTrigger"> Margin toggle trigger</button>
+	</section>	
+
+	<section>
+		<h1>Padding toggle </h1>
+		<div class="box paddingAnimationBox togglePadding"></div>
+		<div class="box paddingAnimationBox2 togglePadding"></div>
+		<button type=button class="paddingAnimationTrigger"> Padding toggle trigger</button>
+	</section>	
+	
+	<section>
+		<h1>Font size toggle </h1>
+		<div class="fontSizeAnimationBox toggleFontSize">Font size animation</div>
+		<div class="fontSizeAnimationBox2 toggleFontSize">Font size animation</div>
+		<button type=button class="fontSizeAnimationTrigger"> Font size  toggle trigger</button>
+	</section>	
+		
+	<section>
+		<h1>Font spacing toggle </h1>
+		<div class=" fontSpacingAnimationBox toggleFontSpace">Font spacing animation Font spacing animation Font spacing animation Font spacing animation Font spacing animation </div>
+		<div class=" fontSpacingAnimationBox2 toggleFontSpace">Font spacing animation Font spacing animation Font spacing animation Font spacing animation Font spacing animation </div>
+		<button type=button class="fontSpacingAnimationTrigger"> Font spacing  toggle trigger</button>
+	</section>	
+
+		
 </body>
-
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="toggleAnimation.js"></script>
+<script type="text/javascript" src="assets/js/toggleAnimation.js"></script>
+
 </html>
 
 
