@@ -1,0 +1,140 @@
+body{
+	font-family:"Arial" , sans-serif;
+	width:90%;
+	margin:auto;
+	margin-top:5%;
+	background:#95D3FF;	
+}
+h1{
+	font-size:150%;
+}
+
+.demo-box{
+	background:#95D3FF;
+	position:relative;
+	float:left;	
+	text-align:center;
+	width:33%;
+	color:white;
+	height:230px;
+	margin-bottom:10%;
+}
+
+button{
+	transition: all 0.5s;
+	font-size:80%;
+	font-weight:900;
+	margin-top:10%;
+	width:150px;
+}
+
+
+/* Design 1*/
+.design1{
+	border:none;
+	background:white;
+	color:#95D3FF;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design1:hover{
+	opacity:0.8;
+}
+
+
+/* Design 2 */
+.design2{
+	border-radius:30px;
+	border:none;
+	background:white;
+	color:#95D3FF;
+	outline:none;
+	cursor:pointer;
+	padding:5%;
+}
+.design2:hover{
+	opacity:0.8;
+}
+
+/* Design 3*/
+.design3{
+	border-radius:30px;
+	color:white;
+	border:3px solid white ;
+	background:transparent;	
+	outline:none;
+	cursor:pointer;
+	padding:5%;
+}
+.design3:hover{
+	color:#7BC8FE;
+	background:white;
+}
+
+/* Design 4*/
+.design4{
+	border-radius:30px;
+	color:white;
+	border:5px dotted white ;
+	background:#7BC8FE;	
+	outline:none;
+	cursor:pointer;
+	padding:5%;
+}
+.design4:hover{
+	color:#7BC8FE;
+	background:white;
+}
+
+
+/* Design 5  */
+.design5{
+	border-radius:15px;
+	border:none ;
+	background:transparent;
+	outline:none;
+	color:white;
+	cursor:pointer;
+	box-shadow: 0 2px 2px 0 rgba(255,255,255,0.5), 0 0px 25px 0 rgba(255,255,255,0.4);
+	padding:5%;
+}
+.design5:hover{
+	color:#7BC8FE;
+	background:white;
+}
+
+
+/* Design 6  */
+.design6{
+	border-radius:15px;
+	border:none ;
+	background:transparent;
+	outline:none;
+	color:white;
+	cursor:pointer;
+	box-shadow: 0 2px 2px 0 rgba(255,255,255,0.5), 0 0px 25px 0 rgba(255,255,255,0.4);
+	padding:5%;
+}
+.design6:hover{
+	color:#7BC8FE;
+	background:white;
+}
+
+
+
+/* Design 7  */
+.design7{	
+	color:white;
+	border:none;
+	border-bottom:3px solid white ;
+	background:transparent;	
+	outline:none;
+	cursor:pointer;
+	padding:5%;
+}
+.design7:hover{
+	border-bottom:8px solid white ;
+	background:#7BC8FE;	
+}
+

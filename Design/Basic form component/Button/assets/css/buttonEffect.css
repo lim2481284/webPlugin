@@ -1,0 +1,134 @@
+body{
+	font-family:"Arial" , sans-serif;
+	width:90%;
+	margin:auto;
+	margin-top:5%;
+	background:#95D3FF;	
+}
+h1{
+	font-size:150%;
+}
+
+.demo-box{
+	background:#95D3FF;
+	position:relative;
+	float:left;	
+	text-align:center;
+	width:33%;
+	color:white;
+	height:230px;
+	margin-bottom:10%;
+}
+
+button{
+	font-size:80%;
+	font-weight:900;
+	margin-top:10%;
+	width:150px;
+}
+
+
+/* Design 1*/
+.design1{
+	border:none;
+	background:white;
+	color:#95D3FF;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design1:hover{
+	opacity:0.3;
+}
+
+
+
+/* Design 2*/
+.design2{
+	border:3px solid white;
+	background:transparent;
+	color:white;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design2:hover{
+	background:white;
+	color:#95D3FF;
+}
+
+
+
+/* Design 1*/
+.design1{
+	border:none;
+	background:white;
+	color:#95D3FF;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design1:hover{
+	opacity:0.8;
+}
+
+
+
+/* Design 1*/
+.design1{
+	border:none;
+	background:white;
+	color:#95D3FF;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design1:hover{
+	opacity:0.8;
+}
+
+
+
+/* Design 1*/
+.design1{
+	border:none;
+	background:white;
+	color:#95D3FF;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design1:hover{
+	opacity:0.8;
+}
+
+
+
+/* Design 1*/
+.design1{
+	border:none;
+	background:white;
+	color:#95D3FF;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design1:hover{
+	opacity:0.8;
+}
+
+
+
+/* Design 1*/
+.design1{
+	border:none;
+	background:white;
+	color:#95D3FF;
+	cursor:pointer;
+	outline:none;
+	padding:5%;
+}
+.design1:hover{
+	opacity:0.8;
+}
+
