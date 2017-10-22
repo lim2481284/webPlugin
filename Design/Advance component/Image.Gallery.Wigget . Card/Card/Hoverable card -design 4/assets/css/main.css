@@ -1,0 +1,120 @@
+/*================================
+		Basic styling 
+================================*/
+
+body{
+	font-family:"Arial" , sans-serif;
+	width:90%;
+	height:100%;
+	margin:auto;
+	margin-top:5%;
+	background:#f3ffff;		
+}
+
+.panelSection{
+	position:relative;
+	width:50%;
+	height:25vh;
+	transition:1s;
+	margin:auto;	
+	
+}
+
+.panelSection:hover{
+	cursor:pointer;
+
+}
+
+.panelSection:hover .cardBoardDescription{ 
+	
+    opacity: 1;
+    height: auto;
+	font-size:100%;
+	
+}
+
+.cardBoard:hover::before,
+.cardBoard2:hover::before,
+.cardBoard3:hover::before{
+	
+	filter: brightness(0.4);
+}
+
+.cardBoard:before{
+	transition:1s;
+	content:"";
+	z-index:-1;
+	position:absolute;
+	width:100%;
+	filter: brightness(0.8);
+	height:100%;
+	background-image: url("../img/bg-1.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	top:0;
+}
+
+.cardBoard2:before{
+	transition:1s;
+	content:"";
+	z-index:-1;
+	position:absolute;
+	width:100%;
+	filter: brightness(0.8);
+	height:100%;
+	background-image: url("../img/bg-2.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	top:0;
+}
+
+.cardBoard3:before{
+	transition:1s;
+	content:"";
+	z-index:-1;
+	position:absolute;
+	width:100%;
+	filter: brightness(0.8);
+	height:100%;
+	background-image: url("../img/bg-3.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	top:0;
+}
+
+.cardBoard,
+.cardBoard2,
+.cardBoard3{
+	width:100%;
+	height:100%;
+	position:absolute;
+
+}
+
+.cardBoardContent{   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cardBoardTopic{
+	transition:1s;
+	text-align:center;
+	color:white;
+	font-weight:700;
+	font-size:200%;
+}
+
+.cardBoardDescription{
+	transition:1s;
+	text-align:center;
+	color:white;
+	font-size:0%;
+	opacity: 0; 	
+    height: 0;
+    overflow: hidden;
+}

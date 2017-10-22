@@ -1,0 +1,170 @@
+
+/*
+* ==========================================================
+*     BASIC STYLE
+* ==========================================================
+*/
+
+body{
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  background: url(../img/bg.png);
+  background-size: cover;  
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;	
+}
+
+/*
+* ==========================================================
+*     FORM ELEMENTS
+* ==========================================================
+*/
+.form {
+	background:white;
+}
+
+input.input-material {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+input.input-material:focus {
+  border-color: #796AEE;
+}
+input{
+	outline:none;
+}
+
+/*
+* ==========================================================
+*     LOGIN PAGE
+* ==========================================================
+*/
+.register-form {
+	display:none;
+}
+
+.login-page {
+  position: absolute;
+  margin:auto;
+  width:100%;
+}
+
+.login-page .container {
+  min-height: 100vh;
+  z-index: 1;
+  padding: 20px;
+}
+
+.login-page .form-holder {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.login-page .form-holder .info, .login-page .form-holder .form {
+  min-height: 70vh;
+  padding: 40px;
+  height: 100%;
+}
+
+.login-page .form-holder div[class*='col-'] {
+  padding: 0;
+}
+
+.login-page .form-holder .info {
+  background: rgba(121, 106, 238, 0.9);
+  color: #fff;
+}
+
+.login-page .form-holder .info h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.login-page .form-holder .info p {
+  font-weight: 300;
+}
+
+.login-page .form-holder .form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.login-page .form-holder .form .content {
+  width: 100%;
+}
+
+.login-page .form-holder .form form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-page .form-holder .form #login, .login-page .form-holder .form #register {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.login-page .form-holder .form a.forgot-pass, .login-page .form-holder {
+  font-size: 0.9em;
+  color: #85b4f2;	
+}
+.form a.signup {
+	background:transparent;
+	border:1px solid rgba(121, 106, 238, 1);
+	color:rgba(121, 106, 238, 1);
+}
+.login-page .form-holder .form small {
+  color: #aaa;
+}
+
+.login-page .form-holder .form .terms-conditions label {
+  cursor: pointer;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.forgot-pass{
+	position: relative;
+    float: right;
+}
+
+
+
+
+/*
+ * 2. BUTTONS
+ */
+.btn {
+  margin-top:10%;
+  font-weight: normal;
+  line-height: 1.25;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  background:rgba(121, 106, 238, 1);
+}
+.btn:hover{
+	background:rgba(121, 106, 238, 0.7);
+	border:none;
+}
+
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(121, 106, 238, 0.25);
+}
+
+.btn:active, .btn.active {
+  background-image: none;
+}
