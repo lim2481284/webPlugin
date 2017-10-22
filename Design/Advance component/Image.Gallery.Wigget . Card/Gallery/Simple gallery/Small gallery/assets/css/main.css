@@ -1,0 +1,17 @@
+body{
+	width:90%;	
+	margin:auto;
+}
+
+
+.simpleGallery{
+	margin-top:10%;
+}
+
+.simpleGallery img{
+	
+	height:10%;
+	margin:5%;
+	border:1px solid lightgray;
+	padding:10%;
+}

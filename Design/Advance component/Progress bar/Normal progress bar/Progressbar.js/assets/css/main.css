@@ -1,0 +1,21 @@
+body{
+	font-family:"Arial" , sans-serif;
+	width:90%;
+	margin:auto;
+	margin-top:5%;
+	background:#95D3FF;	
+}
+h1{
+	font-size:150%;
+}
+
+.demo-box{
+	width:50%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	text-align:center;
+	margin-bottom:10%;
+}
+

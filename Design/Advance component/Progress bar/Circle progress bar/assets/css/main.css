@@ -1,0 +1,39 @@
+body{
+	font-family:"Arial" , sans-serif;
+	width:90%;
+	margin:auto;
+	margin-top:5%;
+	background:#95D3FF;	
+}
+h1{
+	font-size:150%;
+}
+
+.demo-box{
+	background:#95D3FF;
+	position:relative;
+	float:left;	
+	text-align:center;
+	width:100%;
+	color:white;
+	height:230px;
+	margin-bottom:10%;
+}
+
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+
+

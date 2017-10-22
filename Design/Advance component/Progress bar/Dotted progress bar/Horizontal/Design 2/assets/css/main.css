@@ -1,0 +1,18 @@
+.progress-bar {
+  position: relative;
+  height: 400px;
+  width: 402px;
+  background: linear-gradient(to right, #E3F2FD 99.9%, transparent 99.9%), radial-gradient(circle at 50% 50%, #e3f2fd 25%, rgba(0, 0, 0, 0) 30%);
+  background-position: 0% 50%, -15px 50%;
+  background-size: 100% 5px, 54px 70px;  
+  background-repeat: no-repeat, repeat-x;
+}
+.progress-now {
+  position: absolute;
+  width: 400px;
+  height: 402px;
+  background: linear-gradient(to right, #2196F3 99.9%, transparent 99.9%), radial-gradient(circle at 50% 50%, #2196f3 25%, rgba(0, 0, 0, 0) 30%);
+  background-position: 0% 50%, -15px 50%;  
+  background-size: 100% 5px, 54px 70px;    
+  background-repeat: no-repeat, repeat-x;
+}
