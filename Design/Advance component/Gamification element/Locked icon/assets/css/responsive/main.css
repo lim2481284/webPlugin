@@ -1,0 +1,20 @@
+.figureBox{
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+	margin:0;
+}
+.leftBox{
+	height:50%;
+}
+figure{
+	padding:5%;
+}
+.figureDescription{
+	position: relative;
+    text-align: left;
+    padding: 5%;
+    height: 60%;
+	top:0% !important;
+	transform: translateY(0%) !important;
+}
