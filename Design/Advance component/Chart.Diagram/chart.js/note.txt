@@ -1,4 +1,0 @@
-with legend
-without legend
-text inside 
-side legend 

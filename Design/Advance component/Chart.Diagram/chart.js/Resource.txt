@@ -1,0 +1,8 @@
+http://www.chartjs.org/docs/latest/
+
+with legend
+without legend
+text inside 
+side legend  ( top , left , right ,bottom ) 
+clickable event 
+multiaxis 
