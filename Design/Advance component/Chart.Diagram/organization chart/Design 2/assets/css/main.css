@@ -1,0 +1,42 @@
+.wbsContent{
+	display:none;
+}
+
+
+/*============================
+		Re-design chart 
+=============================*/
+div.orgChart{
+	background-color:transparent !important;
+	border:none !important;
+}
+div.orgChart div.node{
+	border-radius:0px !important;
+	border:2px solid #A7A7A7 !important;
+	background-color:transparent !important;
+	font-family:"Arial" , sans-serif;
+	box-shadow:none !important;
+}
+div.orgChart h2{
+	font-size:100% !important;
+	font-weight:normal !important;
+}
+div.orgChart tr.lines td.left{
+	border-right: 1px solid lightgray !important;
+}
+div.orgChart tr.lines td.right{
+	border-left: 1px solid lightgray !important;
+}
+div.orgChart tr.lines td.top{
+	border-top: 2px solid lightgray !important;
+}
+.node{
+	 position: relative;
+}
+
+.node h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

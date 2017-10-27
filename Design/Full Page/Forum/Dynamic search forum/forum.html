@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+
+		
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<html>
+<title> i-PreDi </title>
+<link rel="stylesheet" href="forum.css"> 
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<body>
+<center>							
+<a href='homepage.php' style='position:absolute; top:3%; left:2%;'> <img src='icon/home.png' class='back'> </a>
+<a href='forum.php' style='position:absolute; top:3%; left:2%;'> <img src='icon/back3.png' class='back2'> </a>
+<div class='ll'> <label class='forum' style=''> Forum </label> 
+
+	
+
+<form action="" method="POST">
+<center>
+
+	<div id='create' class='overlay'>
+			<div class='popup2'>
+				<h2 class='pop2'>Create Forum</h2>
+				<a class='close' href='#'>&times;</a>
+
+				<form action = '' method = 'post'>
+						
+						<textarea name="content" placeholder="Write something ..." required></textarea>	
+
+							<br><br><button id='postBtn' type="submit" name="post" >Post</button>
+					
+					</form>
+
+			</div>
+	</div>		
+
+	
+</center>
+
+</form>
+<a href='#create'> <button class='createBtn' style='border:none;outline:none'>Create Forum</button></a>
+
+<div style='header' class='header'>
+	<label class='ff'> Forum</label>
+	<label class='cc'> Date</label>
+	<label class='cc'> Comment</label>
+</div>
+
+	
+						<form name='$postId' action='' method='get'>
+						<input type='hidden' value='$postId' name='forumLink'/>
+						<div style='width:90%'  class='body'>
+							<div class='item' id='$postId'>
+								<div class='head'> 
+									<b>$username</b><br>
+									$content
+								</div>
+								<div class='tail'>
+									$date
+								</div>								
+								<div class='tail'>
+									$commentNum
+								</div>
+								
+								<form action ='' method ='post' > 
+								<div style='width:10%;float:left'>
+									
+								</div>
+								<input type='hidden' name='postId' value='$postId'/></form>
+								<form action ='' method ='post' > <div style='width:10%;float:left'>
+									<button id='d' value='$postId' name ='deletePost'> x </button>
+								</div></form>
+
+						</form></div></div></form> 
+	
+</body>
+
+</html>
+

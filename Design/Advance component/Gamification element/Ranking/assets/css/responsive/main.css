@@ -1,0 +1,13 @@
+
+.rankingList li{	
+	padding-bottom:60%;	
+	height: 35vh;
+}
+.rankingContentLeft{
+	height:15vh
+}
+.userLabel{
+	margin-left: -50%;
+    margin-top: 20%;
+	font-size:100%;
+}

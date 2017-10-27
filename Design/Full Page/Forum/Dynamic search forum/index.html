@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+	<head>				
+		<!--meta list-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			
+		<!--css for this page -->		
+		<link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all"/>	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+	</head>
+	<body>	
+		<div class='col-sm-2'></div>
+		<div class='forumSection col-sm-8'> 			
+			<a href='#create'><button class='createBtn'>Create Forum</button></a>
+			<br><br><br>
+			<input type="text" id='searchInput' class="searchInput" placeholder="Search here ... "/>
+			<div style='header' class='tableHeader'>
+				<label class='tableHeaderLabel_1'> Forum</label>
+				<label class='tableHeaderLabel_2'> Date</label>
+				<label class='tableHeaderLabel_2'> Comment</label>
+			</div>				
+			<div  class='tableBody' id="all_text">
+				<div class='forumItem' >
+					<div class='forumHead'> 
+						<b>Username</b><br>
+						<label class='pageContent'> Title </label>
+					</div>
+					<div class='forumTail'>
+						1997.1.20
+					</div>								
+					<div class='forumTail'>
+						3
+					</div>														
+					<button class='deleteBtn' value='$postId' name ='deletePost'> x </button>
+				</div>
+				
+				<div class='forumItem' id='$postId'>
+					<div class='forumHead'> 
+						<b>Username</b><br>
+						<label class='pageContent'> Title </label>
+					</div>
+					<div class='forumTail'>
+						1997.1.20
+					</div>								
+					<div class='forumTail'>
+						3
+					</div>														
+					<button class='deleteBtn' value='$postId' name ='deletePost'> x </button>
+				</div>
+				<div class='forumItem' id='$postId'>
+					<div class='forumHead'> 
+						<b>Username</b><br>
+						<label class='pageContent'> Title </label>
+					</div>
+					<div class='forumTail'>
+						1997.1.20
+					</div>								
+					<div class='forumTail'>
+						3
+					</div>														
+					<button class='deleteBtn' value='$postId' name ='deletePost'> x </button>
+				</div>				
+			</div>
+			
+			<!-- Popup box -->
+			<div id='create' class='overlay'>
+					<div class='popupBox'>
+						<h2>Create Forum</h2>
+						<a class='close' href='#'>&times;</a>
+						<textarea class='textarea' name="content" placeholder="Write something ..." required></textarea>	
+						<br><br><button class='postBtn' type="submit" name="post" >Post</button>								
+					</div>
+			</div>		
+			
+		</div>
+		<div class='col-sm-2'></div>
+	</body>
+	
+	<!--script for this page -->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>	
+	
+</html>                     

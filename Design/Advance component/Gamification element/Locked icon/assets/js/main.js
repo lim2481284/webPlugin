@@ -6,8 +6,7 @@ $(function (){
       $figure = $('figure'),
       $close = $('.close');
   
-  
-  $.getJSON(url, function(data) {
+    
     // Handle item click
     $('.item').on('click', function() {
       
@@ -20,8 +19,7 @@ $(function (){
     });
     
     // Toggle lightbox
-    function toggleLightbox(url) {
-      
+    function toggleLightbox(url) {      
       if ($lightbox.is('.open')) {
         
         $lightbox
@@ -42,6 +40,5 @@ $(function (){
     // Close 
     $lightbox.on('click', toggleLightbox);
 
-});
   
 });

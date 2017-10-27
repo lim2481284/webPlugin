@@ -1,4 +1,53 @@
 
+
+/*=========================
+		Demo box 
+==========================*/
+.demoBox{
+	border:1px solid gray;
+	height:300px;	
+}
+p{
+	font-size:300%;
+}
+
+
+/*=========================
+	Center text Horizontal
+==========================*/
+.centerTextHorizontal{
+	text-align:center;
+}
+
+/*=========================
+	Center text Vertical
+==========================*/
+.centerTextVertical {
+  position: relative;
+}
+.centerTextVertical::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+.centerTextVertical p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*=========================
+	Center text Horizontal
+		and vertical
+==========================*/
+.centerTextHorizontalVertical{
+	text-align:center;
+}
+
+
+
+
 /*=========================
 	Center everything 
 	Horizon and vertical 

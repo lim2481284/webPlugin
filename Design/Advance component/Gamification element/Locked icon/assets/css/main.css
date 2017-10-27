@@ -129,8 +129,24 @@ img {
 	height:100%;
 	top:0;
 	right:0;
-	background:black;
+	background:url("key.png");
+	 background-size: 100% 100%;
 	opacity:0.6;
 }
+
+.themeBtn{
+	border:2px solid white;
+	padding:2%;
+	background:transparent;
+	color:white;
+	font-size:150%;
+	font-weight:600;
+	margin-top:10%;
+}
+.themeBtn:hover{
+	background:white;
+	color:black;
+}
+
 
 
