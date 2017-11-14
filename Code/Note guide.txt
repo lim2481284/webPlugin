@@ -1,0 +1,31 @@
+
+
+Step 1 : Install notepad ++ 
+
+Step 2 : Configure the user define language 
+
+	- Click on language tab in menu bar 
+	- Click on define your language 
+	- Under the folding in code 1 style 
+	- Add /*  in open and  */  in close 
+	- Put 'txt' in Ext field 
+	- Close and click language tab again
+	- click on User-defined 
+
+
+Step 3 : Write your content in this format 
+
+
+/* Title
+
+=========================================================		 
+
+Content
+
+
+=========================================================
+
+*/
+
+
+Step 4 : Click '+' sign to expand or collapse your content 

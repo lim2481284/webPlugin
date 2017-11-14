@@ -1,0 +1,30 @@
+
+.loader-label{
+	font-size:150%;
+	margin-top:20%;
+	line-height: 40;
+}
+
+.loader{
+	line-height: 100vh;
+    text-align: center;	 
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	background:white;
+	left:0;
+	top:0;
+	z-index:99123918203912890;
+	opacity:0.8;
+	
+}
+.loader img{
+	z-index: -1;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position:absolute;
+	margin:auto;
+}
+
